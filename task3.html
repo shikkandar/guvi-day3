@@ -15,7 +15,6 @@
 
        xhr.onload=function(){
             let countryDeatils=JSON.parse(xhr.responseText);
-            console.log(countryDeatils);
             for (let i = 0; i < countryDeatils.length; i++) {
                 console.log(
                     "common Name:" + countryDeatils[i].name.common,
